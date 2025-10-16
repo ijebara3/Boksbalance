@@ -1,0 +1,433 @@
+/* Horizontal scroll containers for mobile viewing */
+@media (max-width: 768px) {
+  .mobile-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    padding-bottom: 16px;
+    margin-bottom: -16px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .mobile-scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+
+  .mobile-scroll-wrapper {
+    display: flex;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mobile-scroll-item {
+    flex: 0 0 auto;
+    width: 85%;
+    margin-right: 16px;
+    scroll-snap-align: start;
+  }
+
+  .mobile-scroll-item:last-child {
+    margin-right: 0;
+    padding-right: 16px;
+  }
+
+  /* Improved touch interaction */
+  .mobile-touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Improved text readability on small screens */
+  .mobile-text-adjust {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* Improved padding for mobile viewing */
+  .mobile-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Responsive grid adjustments */
+  .mobile-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Responsive image sizing */
+  .mobile-image-container {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    position: relative;
+  }
+
+  /* Responsive text sizing */
+  h1.mobile-heading {
+    font-size: 2rem !important;
+    line-height: 1.2;
+  }
+
+  h2.mobile-heading {
+    font-size: 1.75rem !important;
+    line-height: 1.2;
+  }
+
+  h3.mobile-heading {
+    font-size: 1.5rem !important;
+    line-height: 1.2;
+  }
+
+  p.mobile-text {
+    font-size: 1rem !important;
+    line-height: 1.5;
+  }
+}
+
+/* Improved navbar for mobile viewing */
+@media (max-width: 768px) {
+  .mobile-menu-container {
+    max-height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mobile-menu-item {
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: all 0.2s ease;
+  }
+
+  .mobile-menu-item:active {
+    background-color: rgba(0, 160, 188, 0.1);
+  }
+
+  /* Ensure menu always appears on top of other elements */
+  .fixed-menu {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
+
+  /* Faster animations for mobile */
+  .mobile-animation {
+    transition-duration: 0.15s !important;
+  }
+
+  /* Improved button sizing for touch */
+  button,
+  .button,
+  a.button,
+  .btn,
+  a.btn {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+
+  /* Improved form elements for mobile */
+  input,
+  select,
+  textarea {
+    font-size: 16px !important; /* Prevents iOS zoom on focus */
+    padding: 12px !important;
+  }
+
+  /* Improved spacing for mobile */
+  .mobile-spacing {
+    margin-bottom: 2rem;
+  }
+
+  /* Full width containers on mobile */
+  .mobile-full-width {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* Ensure fixed elements are always visible */
+.fixed {
+  position: fixed !important;
+}
+
+/* Ensure z-indices work correctly */
+.z-100 {
+  z-index: 100 !important;
+}
+
+.z-90 {
+  z-index: 90 !important;
+}
+
+.z-95 {
+  z-index: 95 !important;
+}
+
+.z-101 {
+  z-index: 101 !important;
+}
+
+/* Improved loading performance */
+.lazy-load {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-load.loaded {
+  opacity: 1;
+}
+
+/* Responsive video container */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Improved mobile animations */
+@media (max-width: 768px) {
+  .reduce-motion {
+    animation: none !important;
+    transition: opacity 0.3s ease-in-out !important;
+  }
+}
+
+/* Responsive table styles */
+@media (max-width: 768px) {
+  .responsive-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Improved mobile card layouts */
+@media (max-width: 768px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Smooth scrolling for Safari */
+@supports (-webkit-touch-callout: none) {
+  .smooth-scroll {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Smooth scrolling */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Snap scrolling utilities */
+.snap-x {
+  scroll-snap-type: x mandatory;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
+.snap-end {
+  scroll-snap-align: end;
+}
+
+/* Snap scrolling */
+.snap-x {
+  scroll-snap-type: x mandatory;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}
+
+.snap-center {
+  scroll-snap-align: center;
+}
+
+/* Active state for drag scrolling */
+.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+/* Touch action improvements */
+.touch-pan-x {
+  touch-action: pan-x;
+}
+
+.touch-pan-y {
+  touch-action: pan-y;
+}
+
+.touch-none {
+  touch-action: none;
+}
+
+/* Active scrolling state */
+.horizontal-scroll.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+/* Make sure the mobile scroll CSS is properly defined */
+.mobile-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding-bottom: 20px;
+  margin-bottom: -20px;
+}
+
+.mobile-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.mobile-scroll-wrapper {
+  display: flex;
+  gap: 16px;
+  padding: 4px 0;
+}
+
+.mobile-scroll-item {
+  flex: 0 0 auto;
+  width: 280px;
+  max-width: 85vw;
+}
+
+/* For touch devices */
+@media (hover: none) {
+  .mobile-scroll-container {
+    scroll-snap-type: x mandatory;
+  }
+
+  .mobile-scroll-item {
+    scroll-snap-align: start;
+  }
+}
+
+/* Mobile optimizations */
+.mobile-heading {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  line-height: 1.2;
+}
+
+.mobile-text {
+  font-size: clamp(0.875rem, 4vw, 1rem);
+}
+
+.mobile-touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Horizontal scroll for feature cards and testimonials */
+@media (max-width: 768px) {
+  .feature-grid,
+  .testimonial-grid {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 16px;
+    margin-bottom: -16px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .feature-grid::-webkit-scrollbar,
+  .testimonial-grid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .feature-card,
+  .testimonial-card {
+    flex: 0 0 auto;
+    width: 280px;
+    max-width: 85vw;
+    scroll-snap-align: start;
+  }
+}
+
+/* Specific styles for the methods section */
+.methods-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding-bottom: 16px;
+  margin-bottom: -16px;
+}
+
+.methods-scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Ensure cards are visible and properly sized */
+@media (max-width: 768px) {
+  .method-card {
+    flex: 0 0 auto;
+    width: 280px;
+    min-width: 280px;
+    max-width: 85vw;
+    margin-right: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  /* Force display of cards */
+  .method-card,
+  .feature-card,
+  .mobile-scroll-item {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+}

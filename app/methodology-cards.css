@@ -1,0 +1,95 @@
+/* Methodology Cards Container */
+.methodology-cards-container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+/* Methodology Cards Wrapper */
+.methodology-cards-wrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  -webkit-overflow-scrolling: touch;
+}
+
+.methodology-cards-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Methodology Card */
+.methodology-card {
+  flex: 0 0 auto;
+  width: 280px;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+  display: flex;
+}
+
+.methodology-card > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Scroll Indicators */
+.methodology-scroll-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.methodology-scroll-indicator {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.methodology-scroll-indicator.active {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .methodology-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    overflow-x: visible;
+  }
+
+  .methodology-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .methodology-cards-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .methodology-scroll-indicators {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .methodology-cards-wrapper {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* Touch Feedback */
+@media (hover: none) {
+  .methodology-card:active {
+    transform: scale(0.98);
+  }
+}
