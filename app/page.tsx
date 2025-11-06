@@ -77,10 +77,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center">
             <motion.div {...getAnimationProps("fadeLeft")} className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-4">
-                Boksen en Ambulante Begeleiding voor Jongeren
+                Boksen en Ambulante Begeleiding voor Jongeren!
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8">
-                Psy-boks biedt een unieke combinatie van fysieke training en ambulante begeleiding voor jongeren
+                Psy-boks v3 biedt een unieke combinatie van fysieke training en ambulante begeleiding voor jongeren
                 tussen 12 en 18 jaar.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 w-full">
