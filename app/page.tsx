@@ -80,7 +80,7 @@ export default function Home() {
                 Boksen en Ambulante Begeleiding voor Jongeren
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8">
-                BoksBalance biedt een unieke combinatie van fysieke training en ambulante begeleiding voor jongeren
+                Psy-boks biedt een unieke combinatie van fysieke training en ambulante begeleiding voor jongeren
                 tussen 12 en 18 jaar.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 w-full">
