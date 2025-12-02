@@ -18,7 +18,7 @@ export function ContactFormEmail({ name, email, phone, message }: ContactFormEma
         }}
       >
         <h1>Nieuw Contactbericht</h1>
-        <p>BoksBalance Contact Formulier</p>
+        <p>Psy-boks Contact Formulier</p>
       </div>
       <div style={{ background: "#f9fafb", padding: "30px", borderRadius: "0 0 10px 10px" }}>
         <div style={{ marginBottom: "20px" }}>
@@ -83,7 +83,7 @@ export function RegistrationFormEmail({
         }}
       >
         <h1>Nieuwe Aanmelding</h1>
-        <p>BoksBalance Aanmeldformulier</p>
+        <p>Psy-boks Aanmeldformulier</p>
       </div>
       <div style={{ background: "#f9fafb", padding: "30px", borderRadius: "0 0 10px 10px" }}>
         <div style={{ marginBottom: "25px" }}>

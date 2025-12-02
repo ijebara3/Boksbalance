@@ -129,10 +129,10 @@ export default function Footer() {
 
         {/* Copyright en links */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-white/60">© {new Date().getFullYear()} Psy-boks. Alle rechten voorbehouden.</p>
+          <p className="text-xs text-white/60">© {new Date().getFullYear()} Psy-boks. Alle rechten voorbehouden Imad Jebara infrawebs.nl.</p>
           <div className="flex gap-6 text-xs text-white/60">
             <Link href="/privacy" className="hover:text-white transition-colors">
-              Privacy. Imad Jebara Infrawebs.nl
+              Privacy.
             </Link>
             <Link href="/voorwaarden" className="hover:text-white transition-colors">
               Voorwaarden
