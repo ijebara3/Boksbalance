@@ -58,7 +58,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-white/80 text-sm mb-4">
-              BoksBalance biedt een unieke combinatie van bokstraining en ambulante begeleiding voor jongeren tussen 12
+              Psy-boks biedt een unieke combinatie van bokstraining en ambulante begeleiding voor jongeren tussen 12
               en 18 jaar.
             </p>
             <div className="flex gap-2 mt-4">
@@ -121,7 +121,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 text-white shrink-0 mt-0.5" />
-                <span className="text-white/70 break-all">boksbalance@outlook.com</span>
+                <span className="text-white/70 break-all">info@psy-boks.nl</span>
               </div>
             </div>
           </div>
@@ -129,10 +129,10 @@ export default function Footer() {
 
         {/* Copyright en links */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-white/60">© {new Date().getFullYear()} BoksBalance. Alle rechten voorbehouden.</p>
+          <p className="text-xs text-white/60">© {new Date().getFullYear()} Psy-boks. Alle rechten voorbehouden.</p>
           <div className="flex gap-6 text-xs text-white/60">
             <Link href="/privacy" className="hover:text-white transition-colors">
-              Privacy
+              Privacy. Imad Jebara Infrawebs.nl
             </Link>
             <Link href="/voorwaarden" className="hover:text-white transition-colors">
               Voorwaarden

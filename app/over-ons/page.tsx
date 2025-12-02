@@ -52,7 +52,7 @@ export default function OverOnsPage() {
           >
             <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">Over Ons</h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Maak kennis met de mensen achter BoksBalance en onze missie om jongeren te helpen groeien.
+              Maak kennis met de mensen achter Psy-boks en onze missie om jongeren te helpen groeien.
             </p>
             <div className="flex justify-center">
               <div className="w-20 h-1 bg-secondary rounded-full"></div>
@@ -74,7 +74,7 @@ export default function OverOnsPage() {
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Onze Missie</h2>
               <div className="w-20 h-1 bg-secondary mb-8 rounded-full"></div>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                BoksBalance heeft als doel jongeren te ondersteunen in hun ontwikkeling tot weerbare, bewuste en
+                Psy-boks heeft als doel jongeren te ondersteunen in hun ontwikkeling tot weerbare, bewuste en
                 zelfstandige individuen. We geloven dat fysieke kracht, mentale flexibiliteit en emotionele
                 intelligentie hand in hand gaan bij het bouwen van een gezonde toekomst.
               </p>
@@ -132,7 +132,7 @@ export default function OverOnsPage() {
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">Ons Team</h2>
             <div className="w-20 h-1 bg-secondary mx-auto mb-8 rounded-full"></div>
             <p className="text-lg text-muted-foreground">
-              Maak kennis met de professionals achter BoksBalance die met passie en expertise jongeren begeleiden.
+              Maak kennis met de professionals achter Psy-boks die met passie en expertise jongeren begeleiden.
             </p>
           </motion.div>
 

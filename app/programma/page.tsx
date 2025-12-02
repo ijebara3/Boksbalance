@@ -85,7 +85,7 @@ export default function ProgrammaPage() {
             >
               <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">Ons Programma</h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-                BoksBalance biedt een unieke combinatie van bokstraining en ambulante begeleiding voor jongeren.
+                Psy-boks biedt een unieke combinatie van bokstraining en ambulante begeleiding voor jongeren.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm">
@@ -196,7 +196,7 @@ export default function ProgrammaPage() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Opbouw van het Programma</h2>
             <div className="h-1 w-24 bg-secondary mx-auto mb-6 rounded-full"></div>
             <p className="text-xl text-gray-600">
-              Het BoksBalance-programma is opgebouwd in verschillende fases, verspreid over 12 weken, elk gericht op
+              Het Psy-boks-programma is opgebouwd in verschillende fases, verspreid over 12 weken, elk gericht op
               specifieke vaardigheden en ontwikkeling.
             </p>
           </motion.div>
@@ -642,7 +642,7 @@ export default function ProgrammaPage() {
                     <div className="w-12 h-12 rounded-full overflow-hidden mr-4 border-2 border-white shadow-md">
                       <Image
                         src="/images/AliZoubai.jpg"
-                        alt="Ali Zoubai, Trainer BoksBalance"
+                        alt="Ali Zoubai, Trainer Psy-boks"
                         width={100}
                         height={100}
                         className="object-cover w-full h-full"
@@ -650,7 +650,7 @@ export default function ProgrammaPage() {
                     </div>
                     <div>
                       <p className="font-medium">Ali Zoubai</p>
-                      <p className="text-sm text-gray-500">Trainer BoksBalance</p>
+                      <p className="text-sm text-gray-500">Trainer Psy-boks</p>
                     </div>
                   </div>
                 </div>
@@ -902,7 +902,7 @@ export default function ProgrammaPage() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Werkvormen en Methodieken</h2>
             <div className="h-1 w-24 bg-secondary mx-auto mb-6 rounded-full"></div>
             <p className="text-xl text-gray-600">
-              Tijdens BoksBalance maken we gebruik van een combinatie van fysieke, mentale en sociale werkvormen.
+              Tijdens Psy-boks maken we gebruik van een combinatie van fysieke, mentale en sociale werkvormen.
             </p>
           </motion.div>
 
@@ -1257,7 +1257,7 @@ export default function ProgrammaPage() {
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">Klaar om te beginnen?</h2>
                 <div className="w-20 h-1 bg-white/40 mx-auto mb-8 rounded-full"></div>
                 <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-                  Neem contact met ons op om te bespreken hoe BoksBalance kan bijdragen aan de ontwikkeling van jongeren
+                  Neem contact met ons op om te bespreken hoe Psy-boks kan bijdragen aan de ontwikkeling van jongeren
                   in uw omgeving.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">

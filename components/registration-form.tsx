@@ -165,7 +165,7 @@ export default function RegistrationForm() {
         <h3 className="text-2xl font-bold mb-2">Aanmelding verzonden!</h3>
         <p className="text-muted-foreground mb-6 mobile-text">
           Bedankt voor je aanmelding. We hebben je gegevens ontvangen en nemen zo snel mogelijk contact met je op via{" "}
-          <strong>boksbalance@outlook.com</strong>.
+          <strong>info@psy-boks.nl</strong>.
         </p>
         <Button onClick={() => setIsSuccess(false)} className="mobile-touch-target">
           Nieuwe aanmelding
@@ -537,7 +537,7 @@ export default function RegistrationForm() {
 
             <div>
               <Label htmlFor="expectations" className="mobile-touch-target">
-                Wat zijn de verwachtingen van BoksBalance? *
+                Wat zijn de verwachtingen van Psy-boks? *
               </Label>
               <Textarea
                 id="expectations"
@@ -546,7 +546,7 @@ export default function RegistrationForm() {
                 onChange={handleChange}
                 required
                 className="mt-1 min-h-[120px] mobile-touch-target"
-                placeholder="Wat hoopt u/jij dat BoksBalance kan betekenen voor de jongere?"
+                placeholder="Wat hoopt u/jij dat Psy-boks kan betekenen voor de jongere?"
               />
             </div>
 
