@@ -13,9 +13,9 @@ import PageTransition from "@/components/page-transition"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "BoksBalance - Boksen en Ambulante Begeleiding voor Jongeren",
+  title: "Psy-boks - Boksen en Ambulante Begeleiding voor Jongeren",
   description:
-    "BoksBalance biedt een unieke combinatie van bokstraining en ambulante begeleiding voor jongeren tussen 12 en 18 jaar.",
+    "Psy-boks biedt een unieke combinatie van bokstraining en ambulante begeleiding voor jongeren tussen 12 en 18 jaar.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
