@@ -117,7 +117,7 @@ export default function ContactPage() {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="text-xl md:text-2xl text-muted-foreground mb-8"
               >
-                Heeft u vragen over BoksBalance of wilt u een jongere aanmelden? Neem gerust contact met ons op.
+                Heeft u vragen over Psy-boks of wilt u een jongere aanmelden? Neem gerust contact met ons op.
               </motion.p>
               <div className="flex justify-center">
                 <div className="w-20 h-1 bg-secondary rounded-full"></div>
@@ -136,7 +136,7 @@ export default function ContactPage() {
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-md flex items-center">
                   <Mail className="h-5 w-5 text-primary mr-2" />
-                  <span className="text-sm font-medium">boksbalance@outlook.com</span>
+                  <span className="text-sm font-medium">info@psy-boks.nl</span>
                 </div>
                 <div className="bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-md flex items-center">
                   <MessageSquare className="h-5 w-5 text-primary mr-2" />
@@ -196,10 +196,10 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold mb-1 mobile-text">E-mail</h3>
                         <a
-                          href="mailto:boksbalance@outlook.com"
+                          href="mailto:info@psy-boks.nl"
                           className="text-muted-foreground hover:text-primary transition-colors mobile-text"
                         >
-                          boksbalance@outlook.com
+                          Psy-boks
                         </a>
                       </div>
                     </div>
@@ -344,9 +344,9 @@ export default function ContactPage() {
                     >
                       <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-full -mt-10 -mr-10 group-hover:bg-primary/10 transition-colors duration-300"></div>
 
-                      <h3 className="text-xl font-bold mb-2 text-primary">Wordt BoksBalance vergoed?</h3>
+                      <h3 className="text-xl font-bold mb-2 text-primary">Wordt Psy-boks vergoed?</h3>
                       <p className="text-gray-600">
-                        In sommige gevallen kan BoksBalance worden vergoed door gemeenten, jeugdzorg of verzekeraars.
+                        In sommige gevallen kan Psy-boks worden vergoed door gemeenten, jeugdzorg of verzekeraars.
                         Dit is afhankelijk van de specifieke situatie en regio. We denken graag mee over de
                         mogelijkheden.
                       </p>
@@ -435,9 +435,9 @@ export default function ContactPage() {
                   >
                     <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-bl-full -mt-10 -mr-10 group-hover:bg-primary/10 transition-colors duration-300"></div>
 
-                    <h3 className="text-xl font-bold mb-2 text-primary">Wordt BoksBalance vergoed?</h3>
+                    <h3 className="text-xl font-bold mb-2 text-primary">Wordt Psy-boks vergoed?</h3>
                     <p className="text-gray-600">
-                      In sommige gevallen kan BoksBalance worden vergoed door gemeenten, jeugdzorg of verzekeraars. Dit
+                      In sommige gevallen kan Psy-boks worden vergoed door gemeenten, jeugdzorg of verzekeraars. Dit
                       is afhankelijk van de specifieke situatie en regio. We denken graag mee over de mogelijkheden.
                     </p>
                   </motion.div>
@@ -534,7 +534,7 @@ export default function ContactPage() {
                   <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">Klaar om te beginnen?</h2>
                   <div className="w-20 h-1 bg-white/40 mx-auto mb-8 rounded-full"></div>
                   <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-                    Neem contact met ons op om te bespreken hoe BoksBalance kan bijdragen aan de ontwikkeling van
+                    Neem contact met ons op om te bespreken hoe Psy-boks kan bijdragen aan de ontwikkeling van
                     jongeren in uw omgeving.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -189,7 +189,7 @@ export default function Home() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 inline-block relative">
-              Introductie BoksBalance
+              Introductie Psy-boks
               <span className="absolute -bottom-2 left-0 right-0 h-1 bg-secondary rounded-full"></span>
             </h2>
             <p className="text-xl md:text-2xl max-wxl mx-auto text-white/90">
@@ -217,15 +217,15 @@ export default function Home() {
                       ></path>
                     </svg>
                   </span>
-                  Wat is BoksBalance?
+                  Wat is Psy-boks?
                 </h3>
                 <div className="space-y-4 text-white/90">
                   <p>
-                    BoksBalance is ontwikkeld vanuit de overtuiging dat jongeren fysieke kracht en mentale veerkracht
+                    Psy-boks is ontwikkeld vanuit de overtuiging dat jongeren fysieke kracht en mentale veerkracht
                     samen nodig hebben om gezond op te groeien.
                   </p>
                   <p>
-                    In een wereld die steeds hogere eisen stelt aan jongeren op school, thuis en in de maatschappij biedt BoksBalance een unieke combinatie van fysieke training en ambulante begeleiding.
+                    In een wereld die steeds hogere eisen stelt aan jongeren op school, thuis en in de maatschappij biedt Psy-boks een unieke combinatie van fysieke training en ambulante begeleiding.
                   </p>
                   <div className="pt-2">
                     <div className="inline-flex items-center text-secondary">
@@ -339,7 +339,7 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary mobile-heading">Doel en Visie</h2>
             <div className="h-1 w-24 bg-secondary mx-auto mb-6 rounded-full"></div>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto mobile-text">
-              BoksBalance heeft als doel jongeren te ondersteunen in hun ontwikkeling tot weerbare, bewuste en
+              Psy-boks heeft als doel jongeren te ondersteunen in hun ontwikkeling tot weerbare, bewuste en
               zelfstandige individuen.
             </p>
           </motion.div>
@@ -576,7 +576,7 @@ export default function Home() {
             </h2>
             <div className="h-1 w-24 bg-secondary mx-auto mb-6 rounded-full"></div>
             <p className="text-xl text-gray-700 mobile-text">
-              Het BoksBalance-programma is opgebouwd in verschillende fases, verspreid over 12 weken, elk gericht op
+              Het Psy-boks-programma is opgebouwd in verschillende fases, verspreid over 12 weken, elk gericht op
               specifieke vaardigheden en ontwikkeling.
             </p>
           </motion.div>
@@ -854,7 +854,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-medium">Ali Zoubai</p>
-                      <p className="text-sm text-gray-500">Trainer BoksBalance</p>
+                      <p className="text-sm text-gray-500">Trainer Psy-boks</p>
                     </div>
                   </div>
                 </div>

@@ -84,7 +84,7 @@ export default function DoelgroepPage() {
           >
             <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">Onze Doelgroep</h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              BoksBalance richt zich op jongeren van 12 tot en met 18 jaar die moeite ervaren met motivatie,
+              Psy-boks richt zich op jongeren van 12 tot en met 18 jaar die moeite ervaren met motivatie,
               gedragsregulatie, emotieregulatie, zelfbeeld of sociale vaardigheden.
             </p>
             <div className="flex justify-center">
@@ -136,12 +136,12 @@ export default function DoelgroepPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <span className="inline-block bg-primary/10 text-primary text-sm font-semibold px-4 py-1 rounded-full mb-4">
-              Voor wie is BoksBalance?
+              Voor wie is Psy-boks?
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Onze Doelgroep</h2>
             <div className="h-1 w-24 bg-secondary mx-auto mb-6 rounded-full"></div>
             <p className="text-xl text-gray-600">
-              BoksBalance richt zich op jongeren die uitdagingen ervaren op verschillende gebieden. We kijken naar de
+              Psy-boks richt zich op jongeren die uitdagingen ervaren op verschillende gebieden. We kijken naar de
               individuele behoeften van elke jongere.
             </p>
           </div>
@@ -192,10 +192,10 @@ export default function DoelgroepPage() {
               transition={{ duration: 0.7, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-2xl font-bold mb-6 text-primary">Voor wie is BoksBalance?</h3>
+              <h3 className="text-2xl font-bold mb-6 text-primary">Voor wie is Psy-boks?</h3>
               <div className="w-16 h-1 bg-secondary mb-6 rounded-full"></div>
               <p className="text-muted-foreground mb-8">
-                BoksBalance richt zich op jongeren van 12 tot en met 18 jaar die moeite ervaren met:
+                Psy-boks richt zich op jongeren van 12 tot en met 18 jaar die moeite ervaren met:
               </p>
 
               <div className="space-y-4">
@@ -653,7 +653,7 @@ export default function DoelgroepPage() {
                   </p>
                   <p className="text-white/80 text-center sm:text-left text-sm sm:text-base">
                     We beoordelen elke aanmelding individueel en kijken naar de specifieke situatie van de jongere. Bij
-                    twijfel overleggen we met betrokken zorgprofessionals om te bepalen of BoksBalance op dat moment de
+                    twijfel overleggen we met betrokken zorgprofessionals om te bepalen of Psy-boks op dat moment de
                     juiste interventie is.
                   </p>
                 </div>
@@ -695,7 +695,7 @@ export default function DoelgroepPage() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">Algemene Doelen</h2>
             <div className="h-1 w-24 bg-secondary mx-auto mb-6 rounded-full"></div>
             <p className="text-xl text-gray-600">
-              Binnen BoksBalance richten wij ons op het realiseren van de volgende algemene doelen.
+              Binnen Psy-boks richten wij ons op het realiseren van de volgende algemene doelen.
             </p>
           </motion.div>
 
@@ -1280,7 +1280,7 @@ export default function DoelgroepPage() {
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">Klaar om te beginnen?</h2>
                 <div className="w-20 h-1 bg-white/40 mx-auto mb-8 rounded-full"></div>
                 <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-                  Neem contact met ons op om te bespreken hoe BoksBalance kan bijdragen aan de ontwikkeling van jongeren
+                  Neem contact met ons op om te bespreken hoe Psy-boks kan bijdragen aan de ontwikkeling van jongeren
                   in uw omgeving.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
