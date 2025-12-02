@@ -45,7 +45,7 @@ export async function sendContactEmail(data: ContactFormData) {
           <div class="container">
             <div class="header">
               <h1>Nieuw Contactbericht</h1>
-              <p>BoksBalance Contact Formulier</p>
+              <p>Psy-boks Contact Formulier</p>
             </div>
             <div class="content">
               <div class="field">
@@ -71,7 +71,7 @@ export async function sendContactEmail(data: ContactFormData) {
     `
 
     await resend.emails.send({
-      from: "BoksBalance <noreply@psy-boks.nl>",
+      from: "Psy-boks <noreply@psy-boks.nl>",
       to: "info@psy-boks.nl",
       replyTo: email,
       subject: `Nieuw contactbericht van ${name}`,
@@ -110,7 +110,7 @@ export async function sendRegistrationEmail(data: RegistrationFormData) {
           <div class="container">
             <div class="header">
               <h1>Nieuwe Aanmelding</h1>
-              <p>BoksBalance Aanmeldformulier</p>
+              <p>Psy-boks Aanmeldformulier</p>
             </div>
             <div class="content">
               <div class="section">
@@ -169,7 +169,7 @@ export async function sendRegistrationEmail(data: RegistrationFormData) {
     `
 
     await resend.emails.send({
-      from: "BoksBalance <noreply@psy-boks.nl>",
+      from: "Psy-boks <noreply@psy-boks.nl>",
       to: "info@psy-boks.nl",
       replyTo: parentEmail,
       subject: `Nieuwe aanmelding: ${childName}`,
