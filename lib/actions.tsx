@@ -72,7 +72,7 @@ export async function sendContactEmail(data: ContactFormData) {
 
     await resend.emails.send({
       from: "BoksBalance <noreply@psy-boks.nl>",
-      to: "imad-77@live.nl",
+      to: "info@psy-boks.nl",
       replyTo: email,
       subject: `Nieuw contactbericht van ${name}`,
       html: emailHtml,
@@ -170,7 +170,7 @@ export async function sendRegistrationEmail(data: RegistrationFormData) {
 
     await resend.emails.send({
       from: "BoksBalance <noreply@psy-boks.nl>",
-      to: "imad-77@live.nl",
+      to: "info@psy-boks.nl",
       replyTo: parentEmail,
       subject: `Nieuwe aanmelding: ${childName}`,
       html: emailHtml,
