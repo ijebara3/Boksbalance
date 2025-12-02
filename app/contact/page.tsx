@@ -199,7 +199,7 @@ export default function ContactPage() {
                           href="mailto:info@psy-boks.nl"
                           className="text-muted-foreground hover:text-primary transition-colors mobile-text"
                         >
-                          Psy-boks
+                          info@psy-boks.nl
                         </a>
                       </div>
                     </div>

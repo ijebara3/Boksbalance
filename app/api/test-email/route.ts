@@ -8,8 +8,8 @@ export async function GET() {
     console.log("Testing Resend API with key:", process.env.RESEND_API_KEY ? "Key exists" : "No key found")
 
     const { data, error } = await resend.emails.send({
-      from: "BoksBalance <noreply@boksbalance.nl>",
-      to: ["rayanadrzi@gmail.com"],
+      from: "Psy-boks <noreply@psy-boks.nl>",
+      to: ["imad-77@live.nl"],
       subject: "Test Email",
       html: "<p>This is a test email to verify the Resend API is working.</p>",
     })

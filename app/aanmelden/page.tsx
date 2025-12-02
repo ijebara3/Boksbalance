@@ -56,7 +56,7 @@ export default function AanmeldenPage() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-primary"
             >
-              Aanmelden voor BoksBalance
+              Aanmelden voor Psy-boks
             </motion.h1>
 
             <motion.p
